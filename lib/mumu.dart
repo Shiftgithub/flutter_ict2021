@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
-class MyApp extends StatelessWidget {
+class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SecondHomePage(),
     );
   }
 }
 
-class HomePage extends StatefulWidget {
+class SecondHomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<SecondHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
