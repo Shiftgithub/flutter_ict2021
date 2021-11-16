@@ -26,9 +26,9 @@ class _SecondHomePageState extends State<SecondHomePage> {
       ),
       body: SingleChildScrollView(
         child: Center(
-          child: Image(
+          childer: [Image(
             image: AssetImage('images/mumu10.jpg'),
-          ),
+          ),];
         ),
       ),
     );
