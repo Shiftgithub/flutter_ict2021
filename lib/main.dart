@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:app/mumu.dart';
+import 'package:app/mumu2.dart';
 
 void main() {
   runApp(MyApp());
@@ -91,6 +92,18 @@ class _HomePageState extends State<HomePage> {
                   context,
                   MaterialPageRoute(
                     builder: (context) => SecondPage(),
+                  ),
+                );
+              },
+              child: Text('Next'),
+              color: Colors.black,
+            ),
+            RaisedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ThirdPage(),
                   ),
                 );
               },
