@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app/newpage.dart';
-//import 'package:app/mumu/mumu.dart';
+import 'package:app/mumu.dart';
 
 void main() {
   runApp(MyApp());
