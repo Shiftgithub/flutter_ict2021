@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SecondPage extends StatelessWidget {
+class SecondPage  extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,6 +29,20 @@ class _HomePageState extends State<SecondHomePage> {
           child: Image(
             image: AssetImage('images/mumu10.jpg'),
           ),
+          RaisedButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          child: Text('Mamun'),
+          color: Colors.blue,
+        ),
+        ),
+        RaisedButton(
+          onPressed: () {
+            Navigator.pop(context);
+          },
+          child: Text('Mamun'),
+          color: Colors.blue,
         ),
       ),
     );

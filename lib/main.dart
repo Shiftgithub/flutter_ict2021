@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app/mumu1.dart';
+import 'package:app/mumu1.dart;
 import 'package:app/mumu2.dart';
 
 void main() {
