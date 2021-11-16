@@ -12,7 +12,7 @@ class SecondPage  extends StatelessWidget {
 
 class SecondHomePage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _HomePageState createState() => SecondHomePage();
 }
 
 class _HomePageState extends State<SecondHomePage> {
