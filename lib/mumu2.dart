@@ -20,7 +20,7 @@ class _HomePageState extends State<ThirdHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Happy Birthday Mumu'),
+        title: Text('Happy Birthday Mumu2'),
         centerTitle: true,
         foregroundColor: Colors.white,
       ),
