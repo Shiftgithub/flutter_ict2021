@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
                 );
               },
               child: Text('Next'),
-              color: Colors.red,
+              color: Colors.black,
             ),
           ],
         ),
