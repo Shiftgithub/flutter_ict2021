@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SecondPage  extends StatelessWidget {
+class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -12,10 +12,10 @@ class SecondPage  extends StatelessWidget {
 
 class SecondHomePage extends StatefulWidget {
   @override
-  _HomePageState createState() => SecondHomePage();
+  _SecondHomePageState createState() => SecondHomePage();
 }
 
-class _HomePageState extends State<SecondHomePage> {
+class _SecondHomePageState extends State<SecondHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,20 +29,6 @@ class _HomePageState extends State<SecondHomePage> {
           child: Image(
             image: AssetImage('images/mumu10.jpg'),
           ),
-          RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text('Mamun'),
-          color: Colors.blue,
-        ),
-        ),
-        RaisedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text('Mamun'),
-          color: Colors.blue,
         ),
       ),
     );
